@@ -1,0 +1,36 @@
+.sidebarOptions {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebarOption {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.sidebarOption:hover {
+  background-color: lightgray;
+  border-radius: 5px;
+}
+
+.sidebarOption > img {
+  height: 40px;
+  width: 70px;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+
+.sidebarOption > p {
+  color: #1d5fb6;
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+.sidebarOption > .MuiSvgIcon-root {
+  color: #1d5fb6;
+  font-size: large;
+  margin-left: 20px;
+  font-weight: bold;
+}

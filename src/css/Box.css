@@ -1,0 +1,35 @@
+.Box {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: 1px solid lightgrey;
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Box:hover {
+  border: 1px solid grey;
+}
+
+.Box_info {
+  display: flex;
+  align-items: center;
+}
+
+.Box_info > h5 {
+  color: rgb(129, 129, 129);
+  font-weight: 300;
+  margin-left: 10px;
+}
+
+.Box_description {
+  display: flex;
+  margin-top: 8px;
+}
+
+.Box_description > p {
+  color: gray;
+  font-weight: bold;
+  font-size: large;
+}
